@@ -1,4 +1,4 @@
-# yield-prediction-CVs
+# Yield-Prediction-CVs
 Spatial Block Cross-Validation with Iterative Grid Size for XGBoost
 
 This repository contains Python scripts to evaluate wheat yield prediction performance using spatial block cross-validation with XGBoost regression.
@@ -29,7 +29,7 @@ In this repository:
 
 **Scripts Overview**
 
-***script1.py — Iterative Grid Size Evaluation (SA-wide)***
+***script1.py — Iterative Grid Size Evaluation (SA)***
 
 Evaluates how grid size affects model performance when applying spatial block cross-validation across the SA.
 
@@ -105,11 +105,11 @@ Spatial block CV mitigates this by:
   
 - Metrics:
   
-  • R² — Coefficient of determination
+  • R² : Coefficient of determination
   
-  • MAE — Mean Absolute Error
+  • MAE : Mean Absolute Error
   
-  • RMSE — Root Mean Squared Error
+  • RMSE : Root Mean Squared Error
 
 
 
